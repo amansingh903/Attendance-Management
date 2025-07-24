@@ -209,8 +209,8 @@ def analyze_attendance_report(file_path):
 
 # --- Main Execution Block ---
 if __name__ == "__main__":
-    input_file = "Daily Attendance Report.xlsx"
-    output_file = "Calculated Attendance Report.xlsx"
+    input_file = "INPUT FILE NAME.xlsx"
+    output_file = "OUTPUT FILE NAME.xlsx"
 
     # The function now returns two dataframes
     final_df, console_df = analyze_attendance_report(input_file)
